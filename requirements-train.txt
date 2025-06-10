@@ -1,0 +1,6 @@
+transformers>=4.44
+datasets>=2.21
+accelerate>=0.34
+peft>=0.12
+trl>=0.9
+# NOTE: skip bitsandbytes on Windows
