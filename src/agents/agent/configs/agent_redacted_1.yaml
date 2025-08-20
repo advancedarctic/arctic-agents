@@ -1,0 +1,16 @@
+name: "[REDACTED]-ALPHA"
+description: "Autonomous Solana execution agent focused on momentum ignition entries."
+wallet_env_key: "AGENT1_SK_B58"
+risk:
+  max_sol_per_trade: 0.5
+  max_open_positions: 3
+  slippage_bps: 125
+universe:
+  base_mint: "So11111111111111111111111111111111111111112"   # SOL
+  quote_mint: "Es9vMFrzaCERz6..."                             # USDT (placeholder)
+signals:
+  - type: "breakout"
+  - type: "volume_spike"
+execution:
+  dex_priority: ["raydium", "meteora"]
+  jito_tip_lamports: 0

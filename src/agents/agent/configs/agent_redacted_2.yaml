@@ -1,0 +1,16 @@
+name: "[REDACTED]-BETA"
+description: "Mean-reversion Solana agent with tight risk bands."
+wallet_env_key: "AGENT2_SK_B58"
+risk:
+  max_sol_per_trade: 0.2
+  max_open_positions: 2
+  slippage_bps: 80
+universe:
+  base_mint: "So11111111111111111111111111111111111111112"
+  quote_mint: "Es9vMFrzaCERz6..."
+signals:
+  - type: "mean_revert"
+  - type: "oversold"
+execution:
+  dex_priority: ["meteora", "raydium"]
+  jito_tip_lamports: 0

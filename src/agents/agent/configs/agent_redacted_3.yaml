@@ -1,0 +1,16 @@
+name: "[REDACTED]-GAMMA"
+description: "Event-driven Solana agent reacting to Pool launch/migration."
+wallet_env_key: "AGENT3_SK_B58"
+risk:
+  max_sol_per_trade: 1.0
+  max_open_positions: 1
+  slippage_bps: 150
+universe:
+  base_mint: "So11111111111111111111111111111111111111112"
+  quote_mint: "Es9vMFrzaCERz6..."
+signals:
+  - type: "pool_launch"
+  - type: "migration"
+execution:
+  dex_priority: ["raydium"]
+  jito_tip_lamports: 0
