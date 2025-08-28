@@ -1,0 +1,8 @@
+{
+  "generated_at": "2025-09-03T09:30:00-05:00",
+  "agents": {
+    "[REDACTED]-ALPHA": {"fills": 785, "slippage_bps_avg": 94, "tto_ms_p50": 450, "tto_ms_p95": 740},
+    "[REDACTED]-BETA":  {"fills": 692, "slippage_bps_avg": 77, "tto_ms_p50": 420, "tto_ms_p95": 700},
+    "[REDACTED]-GAMMA": {"fills": 512, "slippage_bps_avg": 101, "tto_ms_p50": 480, "tto_ms_p95": 820}
+  }
+}
