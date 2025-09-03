@@ -1,10 +1,10 @@
-# ai-agents-baseline (Windows-first, bones only)
+# [REDACTED] Agents — Solana Execution & Training Suite
 
-Minimal skeleton for building **LLM agents** and **future training**.
-No training/downloads by default.
+**Agents:** `[REDACTED]-ALPHA`, `[REDACTED]-BETA`, `[REDACTED]-GAMMA`  
+**Focus:** momentum, mean-reversion, and event-driven execution across Raydium/Meteora pools.
 
-## Quickstart (PowerShell)
+## Quickstart (Windows)
 ```powershell
 powershell -File scripts/dev.ps1 setup
-Copy-Item .env.example .env   # add keys later if needed
-powershell -File scripts/dev.ps1 agent
+Copy-Item .env.example .env
+# Optional: set RPC overrides and agent private keys via env
